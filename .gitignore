@@ -1,0 +1,51 @@
+# Quartus compilation databases
+db/
+incremental_db/
+greybox_tmp/
+hc_output/
+.qsys_edit/
+
+# Quartus build outputs (reports, bitstreams)
+output_files/
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.sld
+*.sof
+*.pof
+*.qws
+*.qarlog
+
+# Simulation artifacts (ModelSim / Questa / Quartus waveform)
+**/simulation/modelsim/rtl_work/
+**/simulation/modelsim/msim_transcript
+**/simulation/modelsim/*.wlf
+**/simulation/modelsim/*.xrf
+**/simulation/modelsim/*.sft
+**/simulation/modelsim/*.vho
+**/simulation/qsim/work/
+**/simulation/qsim/transcript
+**/simulation/qsim/vwf_sim_transcript
+**/simulation/qsim/*.vcd
+**/simulation/qsim/*.xrf
+**/simulation/qsim/*.sft
+**/simulation/qsim/*.vho
+**/simulation/qsim/*.sim.vwf
+transcript
+*.wlf
+work/
+
+# Backup / temp files
+*.bak
+*.bak[0-9]*
+*~
+*.swp
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
